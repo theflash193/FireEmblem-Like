@@ -521,6 +521,7 @@
 				0051817A1EA237E4007E4812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0051817B1EA237E4007E4812 /* Build configuration list for PBXNativeTarget "FIreEmblemLikeTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +530,7 @@
 				0051817D1EA237E4007E4812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0051817E1EA237E4007E4812 /* Build configuration list for PBXNativeTarget "FIreEmblemLikeUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +539,7 @@
 				005181801EA237E4007E4812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
