@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0051814E1EA237E3007E4812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051814D1EA237E3007E4812 /* AppDelegate.swift */; };
+		005181501EA237E4007E4812 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0051814F1EA237E4007E4812 /* GameScene.sks */; };
+		005181521EA237E4007E4812 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 005181511EA237E4007E4812 /* Actions.sks */; };
+		005181541EA237E4007E4812 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005181531EA237E4007E4812 /* GameScene.swift */; };
+		005181561EA237E4007E4812 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005181551EA237E4007E4812 /* GameViewController.swift */; };
+		005181591EA237E4007E4812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005181571EA237E4007E4812 /* Main.storyboard */; };
+		0051815B1EA237E4007E4812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0051815A1EA237E4007E4812 /* Assets.xcassets */; };
+		0051815E1EA237E4007E4812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0051815C1EA237E4007E4812 /* LaunchScreen.storyboard */; };
+		005181691EA237E4007E4812 /* FIreEmblemLikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005181681EA237E4007E4812 /* FIreEmblemLikeTests.swift */; };
+		005181741EA237E4007E4812 /* FIreEmblemLikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005181731EA237E4007E4812 /* FIreEmblemLikeUITests.swift */; };
+		005181821EA2467A007E4812 /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 005181811EA2467A007E4812 /* MyTileSet.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		005181651EA237E4007E4812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005181421EA237E3007E4812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005181491EA237E3007E4812;
+			remoteInfo = FIreEmblemLike;
+		};
+		005181701EA237E4007E4812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005181421EA237E3007E4812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005181491EA237E3007E4812;
+			remoteInfo = FIreEmblemLike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0051814A1EA237E3007E4812 /* FIreEmblemLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIreEmblemLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0051814D1EA237E3007E4812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0051814F1EA237E4007E4812 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		005181511EA237E4007E4812 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		005181531EA237E4007E4812 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		005181551EA237E4007E4812 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		005181581EA237E4007E4812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0051815A1EA237E4007E4812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0051815D1EA237E4007E4812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0051815F1EA237E4007E4812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005181641EA237E4007E4812 /* FIreEmblemLikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIreEmblemLikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005181681EA237E4007E4812 /* FIreEmblemLikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIreEmblemLikeTests.swift; sourceTree = "<group>"; };
+		0051816A1EA237E4007E4812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0051816F1EA237E4007E4812 /* FIreEmblemLikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIreEmblemLikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005181731EA237E4007E4812 /* FIreEmblemLikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIreEmblemLikeUITests.swift; sourceTree = "<group>"; };
+		005181751EA237E4007E4812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005181811EA2467A007E4812 /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005181471EA237E3007E4812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005181611EA237E4007E4812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0051816C1EA237E4007E4812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005181411EA237E3007E4812 = {
+			isa = PBXGroup;
+			children = (
+				0051814C1EA237E3007E4812 /* FIreEmblemLike */,
+				005181671EA237E4007E4812 /* FIreEmblemLikeTests */,
+				005181721EA237E4007E4812 /* FIreEmblemLikeUITests */,
+				0051814B1EA237E3007E4812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0051814B1EA237E3007E4812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0051814A1EA237E3007E4812 /* FIreEmblemLike.app */,
+				005181641EA237E4007E4812 /* FIreEmblemLikeTests.xctest */,
+				0051816F1EA237E4007E4812 /* FIreEmblemLikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0051814C1EA237E3007E4812 /* FIreEmblemLike */ = {
+			isa = PBXGroup;
+			children = (
+				0051814D1EA237E3007E4812 /* AppDelegate.swift */,
+				0051814F1EA237E4007E4812 /* GameScene.sks */,
+				005181511EA237E4007E4812 /* Actions.sks */,
+				005181531EA237E4007E4812 /* GameScene.swift */,
+				005181551EA237E4007E4812 /* GameViewController.swift */,
+				005181571EA237E4007E4812 /* Main.storyboard */,
+				0051815A1EA237E4007E4812 /* Assets.xcassets */,
+				0051815C1EA237E4007E4812 /* LaunchScreen.storyboard */,
+				0051815F1EA237E4007E4812 /* Info.plist */,
+				005181811EA2467A007E4812 /* MyTileSet.sks */,
+			);
+			path = FIreEmblemLike;
+			sourceTree = "<group>";
+		};
+		005181671EA237E4007E4812 /* FIreEmblemLikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				005181681EA237E4007E4812 /* FIreEmblemLikeTests.swift */,
+				0051816A1EA237E4007E4812 /* Info.plist */,
+			);
+			path = FIreEmblemLikeTests;
+			sourceTree = "<group>";
+		};
+		005181721EA237E4007E4812 /* FIreEmblemLikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				005181731EA237E4007E4812 /* FIreEmblemLikeUITests.swift */,
+				005181751EA237E4007E4812 /* Info.plist */,
+			);
+			path = FIreEmblemLikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		005181491EA237E3007E4812 /* FIreEmblemLike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005181781EA237E4007E4812 /* Build configuration list for PBXNativeTarget "FIreEmblemLike" */;
+			buildPhases = (
+				005181461EA237E3007E4812 /* Sources */,
+				005181471EA237E3007E4812 /* Frameworks */,
+				005181481EA237E3007E4812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FIreEmblemLike;
+			productName = FIreEmblemLike;
+			productReference = 0051814A1EA237E3007E4812 /* FIreEmblemLike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		005181631EA237E4007E4812 /* FIreEmblemLikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0051817B1EA237E4007E4812 /* Build configuration list for PBXNativeTarget "FIreEmblemLikeTests" */;
+			buildPhases = (
+				005181601EA237E4007E4812 /* Sources */,
+				005181611EA237E4007E4812 /* Frameworks */,
+				005181621EA237E4007E4812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005181661EA237E4007E4812 /* PBXTargetDependency */,
+			);
+			name = FIreEmblemLikeTests;
+			productName = FIreEmblemLikeTests;
+			productReference = 005181641EA237E4007E4812 /* FIreEmblemLikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0051816E1EA237E4007E4812 /* FIreEmblemLikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0051817E1EA237E4007E4812 /* Build configuration list for PBXNativeTarget "FIreEmblemLikeUITests" */;
+			buildPhases = (
+				0051816B1EA237E4007E4812 /* Sources */,
+				0051816C1EA237E4007E4812 /* Frameworks */,
+				0051816D1EA237E4007E4812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005181711EA237E4007E4812 /* PBXTargetDependency */,
+			);
+			name = FIreEmblemLikeUITests;
+			productName = FIreEmblemLikeUITests;
+			productReference = 0051816F1EA237E4007E4812 /* FIreEmblemLikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		005181421EA237E3007E4812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gordon RASS-KWASI";
+				TargetAttributes = {
+					005181491EA237E3007E4812 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					005181631EA237E4007E4812 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 005181491EA237E3007E4812;
+					};
+					0051816E1EA237E4007E4812 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 005181491EA237E3007E4812;
+					};
+				};
+			};
+			buildConfigurationList = 005181451EA237E3007E4812 /* Build configuration list for PBXProject "FIreEmblemLike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 005181411EA237E3007E4812;
+			productRefGroup = 0051814B1EA237E3007E4812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				005181491EA237E3007E4812 /* FIreEmblemLike */,
+				005181631EA237E4007E4812 /* FIreEmblemLikeTests */,
+				0051816E1EA237E4007E4812 /* FIreEmblemLikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		005181481EA237E3007E4812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005181821EA2467A007E4812 /* MyTileSet.sks in Resources */,
+				005181591EA237E4007E4812 /* Main.storyboard in Resources */,
+				005181501EA237E4007E4812 /* GameScene.sks in Resources */,
+				0051815B1EA237E4007E4812 /* Assets.xcassets in Resources */,
+				0051815E1EA237E4007E4812 /* LaunchScreen.storyboard in Resources */,
+				005181521EA237E4007E4812 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005181621EA237E4007E4812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0051816D1EA237E4007E4812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		005181461EA237E3007E4812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005181541EA237E4007E4812 /* GameScene.swift in Sources */,
+				005181561EA237E4007E4812 /* GameViewController.swift in Sources */,
+				0051814E1EA237E3007E4812 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005181601EA237E4007E4812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005181691EA237E4007E4812 /* FIreEmblemLikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0051816B1EA237E4007E4812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005181741EA237E4007E4812 /* FIreEmblemLikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		005181661EA237E4007E4812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005181491EA237E3007E4812 /* FIreEmblemLike */;
+			targetProxy = 005181651EA237E4007E4812 /* PBXContainerItemProxy */;
+		};
+		005181711EA237E4007E4812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005181491EA237E3007E4812 /* FIreEmblemLike */;
+			targetProxy = 005181701EA237E4007E4812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		005181571EA237E4007E4812 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005181581EA237E4007E4812 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0051815C1EA237E4007E4812 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0051815D1EA237E4007E4812 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		005181761EA237E4007E4812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		005181771EA237E4007E4812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		005181791EA237E4007E4812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FIreEmblemLike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grass-kw.FIreEmblemLike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0051817A1EA237E4007E4812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FIreEmblemLike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grass-kw.FIreEmblemLike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0051817C1EA237E4007E4812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FIreEmblemLikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grass-kw.FIreEmblemLikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIreEmblemLike.app/FIreEmblemLike";
+			};
+			name = Debug;
+		};
+		0051817D1EA237E4007E4812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FIreEmblemLikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grass-kw.FIreEmblemLikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIreEmblemLike.app/FIreEmblemLike";
+			};
+			name = Release;
+		};
+		0051817F1EA237E4007E4812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FIreEmblemLikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grass-kw.FIreEmblemLikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FIreEmblemLike;
+			};
+			name = Debug;
+		};
+		005181801EA237E4007E4812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FIreEmblemLikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grass-kw.FIreEmblemLikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FIreEmblemLike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		005181451EA237E3007E4812 /* Build configuration list for PBXProject "FIreEmblemLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005181761EA237E4007E4812 /* Debug */,
+				005181771EA237E4007E4812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005181781EA237E4007E4812 /* Build configuration list for PBXNativeTarget "FIreEmblemLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005181791EA237E4007E4812 /* Debug */,
+				0051817A1EA237E4007E4812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0051817B1EA237E4007E4812 /* Build configuration list for PBXNativeTarget "FIreEmblemLikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0051817C1EA237E4007E4812 /* Debug */,
+				0051817D1EA237E4007E4812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0051817E1EA237E4007E4812 /* Build configuration list for PBXNativeTarget "FIreEmblemLikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0051817F1EA237E4007E4812 /* Debug */,
+				005181801EA237E4007E4812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 005181421EA237E3007E4812 /* Project object */;
+}
