@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002372CE1EA7DE220022BDDE /* CrimeaAttack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 002372CD1EA7DE220022BDDE /* CrimeaAttack.mp3 */; };
+		002372D01EA7DE2C0022BDDE /* BattleTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 002372CF1EA7DE2C0022BDDE /* BattleTheme.mp3 */; };
+		002372D21EA7DE3A0022BDDE /* Main Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 002372D11EA7DE3A0022BDDE /* Main Theme.mp3 */; };
 		0051814E1EA237E3007E4812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051814D1EA237E3007E4812 /* AppDelegate.swift */; };
 		005181501EA237E4007E4812 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0051814F1EA237E4007E4812 /* GameScene.sks */; };
 		005181521EA237E4007E4812 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 005181511EA237E4007E4812 /* Actions.sks */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002372CD1EA7DE220022BDDE /* CrimeaAttack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = CrimeaAttack.mp3; path = ../../../Downloads/CrimeaAttack.mp3; sourceTree = "<group>"; };
+		002372CF1EA7DE2C0022BDDE /* BattleTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BattleTheme.mp3; path = ../../../Downloads/BattleTheme.mp3; sourceTree = "<group>"; };
+		002372D11EA7DE3A0022BDDE /* Main Theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Main Theme.mp3"; path = "../../../Downloads/Main Theme.mp3"; sourceTree = "<group>"; };
 		0051814A1EA237E3007E4812 /* FIreEmblemLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIreEmblemLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0051814D1EA237E3007E4812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0051814F1EA237E4007E4812 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -82,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002372CC1EA7DD8C0022BDDE /* OST */ = {
+			isa = PBXGroup;
+			children = (
+				002372D11EA7DE3A0022BDDE /* Main Theme.mp3 */,
+				002372CF1EA7DE2C0022BDDE /* BattleTheme.mp3 */,
+				002372CD1EA7DE220022BDDE /* CrimeaAttack.mp3 */,
+			);
+			name = OST;
+			sourceTree = "<group>";
+		};
 		005181411EA237E3007E4812 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +121,7 @@
 		0051814C1EA237E3007E4812 /* FIreEmblemLike */ = {
 			isa = PBXGroup;
 			children = (
+				002372CC1EA7DD8C0022BDDE /* OST */,
 				0051814D1EA237E3007E4812 /* AppDelegate.swift */,
 				0051814F1EA237E4007E4812 /* GameScene.sks */,
 				005181511EA237E4007E4812 /* Actions.sks */,
@@ -244,10 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002372D21EA7DE3A0022BDDE /* Main Theme.mp3 in Resources */,
 				005181821EA2467A007E4812 /* MyTileSet.sks in Resources */,
 				005181591EA237E4007E4812 /* Main.storyboard in Resources */,
 				005181501EA237E4007E4812 /* GameScene.sks in Resources */,
+				002372D01EA7DE2C0022BDDE /* BattleTheme.mp3 in Resources */,
 				0051815B1EA237E4007E4812 /* Assets.xcassets in Resources */,
+				002372CE1EA7DE220022BDDE /* CrimeaAttack.mp3 in Resources */,
 				0051815E1EA237E4007E4812 /* LaunchScreen.storyboard in Resources */,
 				005181521EA237E4007E4812 /* Actions.sks in Resources */,
 			);

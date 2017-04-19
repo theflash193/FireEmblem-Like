@@ -8,14 +8,33 @@
 
 import SpriteKit
 import GameplayKit
+import AVFoundation
 
 class GameScene: SKScene {
     private var BattleField: SKTileMapNode?
     private var player: SKSpriteNode?
     private var deplacement = Bool(booleanLiteral: false)
+    var BackgroundMusic: AVAudioPlayer!
     
+
     override func didMove(to view: SKView) {
         BattleField = self.childNode(withName: "//BattleField") as? SKTileMapNode
+
+        let path = Bundle.main.path(forResource: "BattleTheme", ofType:"mp3")!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            let sound = try AVAudioPlayer(contentsOf: url)
+            BackgroundMusic = sound
+            sound.volume = 1.0
+            sound.play()
+            
+        } catch {
+            // couldn't load file :(
+        }
+        BackgroundMusic.play()
+//        print(BattleThemeURL)
+//        var BattleAudio = AVAudioPlayer(contentOfURL: NSURL(fileURLWithPath: Bundle.mainBundle(), error))
         // je recuper la position de depart de mon joueur
 
         // Get label node from scene and store it for use later
